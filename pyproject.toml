@@ -1,11 +1,15 @@
 [project]
-name = "blank-app-template"
+name = "college-earnings-ai"
 version = "0.1.0"
-description = "A simple Streamlit app template."
+description = "College Earnings Prediction AI"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.11,<3.13"
 dependencies = [
-    "streamlit>=1.61.1",
+    "streamlit",
+    "pandas",
+    "numpy",
+    "scikit-learn==1.6.1",
+    "joblib",
 ]
 
 [tool.uv]
